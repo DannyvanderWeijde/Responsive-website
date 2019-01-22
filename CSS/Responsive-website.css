@@ -1,0 +1,162 @@
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#maindiv{
+	margin: 0 auto;
+}
+
+#yellowbar{
+	background-color: #E8D420;
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+#dropdown{
+	font-size: 2rem;
+	color: white;
+	margin-left: 30px;
+	margin-top: 8px;
+	border: white dotted 1px;
+	padding: 10px 20px 10px 20px;
+	transition: 1s;
+}
+
+#dropdown:hover{
+	color: black;
+	border: black solid 1px;
+}
+
+#dropdown2{
+	font-size: 2rem;
+	color: grey;
+	margin-left: 30px;
+	margin-top: 8px;
+	border: lightgrey dotted 1px;
+	padding: 10px 20px 10px 20px;
+	transition: 1s;
+	margin-top: 20px;
+}
+
+#dropdown2:hover{
+	color: black;
+	border: black solid 1px;
+}
+
+#logo{
+	height: 65px;
+	position: relative;
+	margin-left: 75px;
+	top: 20px;
+}
+
+#banner{
+	margin-top: 28px;
+	background-color: black;
+	width: 100%;
+	height: 200px;
+}
+
+#car{
+	display: inline-block;
+	position: relative;
+	font-size: 1.8em;
+	color: #7A7A7A;
+	top: 2px;
+	left: 50px;
+}
+
+.subtitle{
+	display: inline-block;
+	color: #7A7A7A;
+	margin-top: 50px;
+	margin-left: 52px;
+	font-size: 1.2em;
+}
+
+#line{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.text{
+	margin-left: 50px;
+}
+
+#orangetextbar{
+	margin-left: 50px;
+	background-color: #EDB40B;
+	padding-left: 53px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 1.8em;
+	transition: 0.5s;
+}
+
+#orangetextbar:hover{
+	color: #EDB40B;
+	background-color: black;
+}
+
+#locaties{
+	display: inline-block;
+	position: relative;
+	font-size: 1.8em;
+	color: #7A7A7A;
+	top: 2px;
+	left: 50px;
+}
+
+#hier{
+	color: #2884E0;
+}
+
+#rijlessen{
+	display: inline-block;
+	position: relative;
+	font-size: 1.8em;
+	color: #7A7A7A;
+	top: 2px;
+	left: 50px;
+}
+
+#video{
+	width: 90%;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+footer{
+	padding-left: 110px;
+	background-color: #EDB40B;
+	color: black;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
