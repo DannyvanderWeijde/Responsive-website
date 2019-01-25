@@ -12,43 +12,96 @@
 	<div class="col-12" id="maindiv">
 		<div class="row">
 			<div id="yellowbar">
-				<i id="dropdown" class="fas fa-bars"></i>
+				<a onclick="togglemenu();" href="#"><i id="dropdownicon" class="fas fa-bars"></i></a>
+				<div id="dropdownbackground"></div>
+				<nav id="dropdown1">
+					<ul>
+						<li><i class="fas fa-phone"></i>(06) --- --- --</li>
+						<li><i class="fab fa-whatsapp"></i>(06) --- --- --</li>
+						<li><i class="far fa-clock"></i>Ma - Za 8:00 - 22:00</li>
+						<li><i class="fas fa-tachometer-alt"></i>Dashboard</li>
+						<i id="facebook" class="fab fa-facebook"></i>
+						<i id="instagram" class="fab fa-instagram"></i>
+						<i id="twitter" class="fab fa-twitter-square"></i>
+					</ul>
+				</nav>
+				<ul class="info">
+					<i class="fas fa-phone"></i>
+					<li>(06) --- --- --</li>
+					<i class="fab fa-whatsapp"></i>
+					<li>(06) --- --- --</li>
+					<i class="far fa-clock"></i>
+					<li>Ma - Za 8:00 - 22:00</li>
+					<i class="fas fa-tachometer-alt"></i>
+					<li>Dashboard</li>
+					<i id="facebook" class="fab fa-facebook"></i>
+					<i id="instagram" class="fab fa-instagram"></i>
+					<i id="twitter" class="fab fa-twitter-square"></i>
+				</ul>
 			</div>
 		</div>
 		<div class="row">
-			<i id="dropdown2" class="fas fa-bars"></i>
+			<a onclick="togglemenu2();" href="#"><i id="dropdownicon2" class="fas fa-bars"></i></a>
+			<div id="dropdownbackground2"></div>
+			<nav id="dropdown2">
+				<ul>
+					<li><a href="#">AUTORIJBEWIJS</a><i class="fas fa-angle-down"></i></li>
+					<li><a href="#">MOTORRIJBEWIJS</a><i class="fas fa-angle-down"></i></li>
+					<li><a href="#">THEORIELES</a></li>
+					<li><a href="#">OPFRIS CURSUS</a></li>
+					<li><a href="#">CONTACT</a></li></i>
+				</ul>
+			</nav>
 			<img id="logo" 	src="../Images/logo.png">
+			<ul class="navbar">
+				<li><a href="#">AUTORIJBEWIJS</a></li>
+				<i class="fas fa-angle-down"></i>
+				<li><a href="#">MOTORRIJBEWIJS</a></li>
+				<i class="fas fa-angle-down"></i>
+				<li><a href="#">THEORIELES</a></li>
+				<li><a href="#">OPFRIS CURSUS</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
 		</div>
 		<div class="row">
-			<div id="banner"></div>
-		</div>
-		<div class="row">
-			<i id="car" class="fas fa-car-side"></i>
-			<h1 class="subtitle">PROEFLES</h1>
-			<div id="line"><hr></div>
-		</div>
-		<div class="row">
-			<div class="col-11">
-				<p class="text">Weet u het nog niet zeker maar wilt u het toch even proberen bij flexi. Dat kan, want met een vrijblijvende intakeles zit je nergens aan vast. Jij voelt meteen of er een klik is tussen jou en de rijinstructeur. Is er geen klik dan zijn er nog andere FLEXi rijinstructeur. Ook bij andere rijinstructeur gelds de vrijvlijvende intakeles! Wel zo mooi.</p>
-				<p id="orangetextbar">GRATIS proefles</p>
+			<div id="banner">
+				<div id="bannertext1">Een rijschool</div>
+				<div id="bannertext2">Die meer dan alleen maar een rijschool is!</div>
 			</div>
 		</div>
-		<i id="locaties" class="fas fa-map"></i>
-			<h1 class="subtitle">LOCATIES</h1>
-			<div id="line"><hr></div>
-		</div>
-		<div class="row">
-			<div class="col-11">
-				<p class="text">Onze rijinstructeurs zijn verspreid over wel bijna heel Nederland. Er is dus bijna altijd wel een rijinstrucetur bij jou in de beurt. Is er bij jou in de beurt nog geen FLEXi rijschool. Bel dan even met ons. Wij kijken dan smaen of we toch een FLEXi eijinstucteur voor jou kunnen regelen. Klik <span id="hier">hier</span> de locaties.</p>
+		<div id="grid">
+			<div id="text1">
+				<div class="row">
+					<i id="car" class="fas fa-car-side"></i>
+					<h1 class="subtitle">PROEFLES</h1>
+					<div id="line1" class="line"><hr></div>
+				</div>
+				<div class="row">
+					<div class="col-11">
+						<p class="text">Weet u het nog niet zeker maar wilt u het toch even proberen bij flexi. Dat kan, want met een vrijblijvende intakeles zit je nergens aan vast. Jij voelt meteen of er een klik is tussen jou en de rijinstructeur. Is er geen klik dan zijn er nog andere FLEXi rijinstructeur. Ook bij andere rijinstructeur gelds de vrijvlijvende intakeles! Wel zo mooi.</p>
+					</div>
+				</div>
+				<div id="orangetextbar">GRATIS proefles</div>
+				</div>
+			<div id="text2">
+				<i id="locaties" class="fas fa-map"></i>
+				<h1 class="subtitle">LOCATIES</h1>
+				<div id="line2" class="line"><hr></div>
+				<div class="row">
+					<div class="col-11">
+						<p class="text">Onze rijinstructeurs zijn verspreid over wel bijna heel Nederland. Er is dus bijna altijd wel een rijinstrucetur bij jou in de beurt. Is er bij jou in de beurt nog geen FLEXi rijschool. Bel dan even met ons. Wij kijken dan smaen of we toch een FLEXi eijinstucteur voor jou kunnen regelen. Klik <span id="hier">hier</span> de locaties.</p>
+						</div>
+				</div>
 			</div>
-		</div>
-		<i id="rijlessen" class="fas fa-graduation-cap"></i>
-			<h1 class="subtitle">RIJLESSEN</h1>
-			<div id="line"><hr></div>
-		</div>
-		<div class="row">
-			<div class="col-11">
-				<p class="text">De rijlessen van FLEXi worden op basic van een instructiekaart voorbereid en uitgevoerd. Op de instructiekaar houdt de FLEXi rijinstucteur jouw vorderingen in de gaten. Ook gebuiken de meeste FLEXi rijinstructeurs een dashcame, zodat de les of een deel van de les teruggekeken wordt. Hier galen jij en jouw FLEXi rijinstructeur de pos en nav en bespreekt dit met jou.</p>
+			<div id="text3">
+				<i id="rijlessen" class="fas fa-graduation-cap"></i>
+				<h1 class="subtitle">RIJLESSEN</h1>
+				<div id="line3" class="line"><hr></div>
+				<div class="row">
+					<div class="col-11">
+						<p class="text">De rijlessen van FLEXi worden op basic van een instructiekaart voorbereid en uitgevoerd. Op de instructiekaar houdt de FLEXi rijinstucteur jouw vorderingen in de gaten. Ook gebuiken de meeste FLEXi rijinstructeurs een dashcame, zodat de les of een deel van de les teruggekeken wordt. Hier galen jij en jouw FLEXi rijinstructeur de pos en nav en bespreekt dit met jou.</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -57,6 +110,7 @@
 		<div class="row">
 			<footer>Danny van der Weijde A3</footer>
 		</div>		
-	</div>	
+	</div>
+	<script src="../JavaScript/Responsive-website.js"></script>	
 </body>
 </html>
